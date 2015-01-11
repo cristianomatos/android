@@ -16,11 +16,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="crdroidandroid/android_build" remote="github" revision="cm-12.0" >
+  <project path="build" name="cristianomatos/android_build" remote="github" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="crdroidandroid/android" remote="github" revision="cm-12.0" />
+  <project path="android" name="cristianomatos/android" remote="github" revision="cm-12.0" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -180,7 +180,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/jpeg" name="crdroidandroid/android_external_jpeg" remote="github" revision="cm-12.0" />
+  <project path="external/jpeg" name="cristianomatos/android_external_jpeg" remote="github" revision="cm-12.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -328,7 +328,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="github" revision="cm-12.0" />
+  <project path="frameworks/base" name="cristianomatos/android_frameworks_base" remote="github" revision="cm-12.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -423,7 +423,7 @@
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Dialer" name="cristianomatos/android_packages_apps_Dialer" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
@@ -432,16 +432,16 @@
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="crdroidandroid/android_packages_apps_Mms" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Mms" name="cristianomatos/android_packages_apps_Mms" remote="github" revision="cm-12.0" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/PackageInstaller" name="cristianomatos/android_packages_apps_PackageInstaller" remote="github" revision="cm-12.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/Settings" name="cristianomatos/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
-  <project path="packages/apps/ScreenRecorder" name="crdroidandroid/android_packages_apps_ScreenRecorder" remote="github" revision="cm-12.0" />
+  <project path="packages/apps/ScreenRecorder" name="cristianomatos/android_packages_apps_ScreenRecorder" remote="github" revision="cm-12.0" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
@@ -452,13 +452,13 @@
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.0" />
+  <project path="packages/inputmethods/LatinIME" name="cristianomatos/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.0" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="github" revision="cm-12.0" />
+  <project path="packages/providers/MediaProvider" name="cristianomatos/android_packages_providers_MediaProvider" remote="github" revision="cm-12.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <!-- <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> -->
@@ -531,7 +531,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="system/core" name="crdroidandroid/android_system_core" remote="github" revision="cm-12.0" />
+  <project path="system/core" name="cristianomatos/android_system_core" remote="github" revision="cm-12.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
@@ -552,5 +552,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="cm-12.0" />
+  <project path="vendor/crdroid" name="cristianomatos/android_vendor_crdroid" remote="github" revision="cm-12.0" />
 </manifest>
